@@ -1,0 +1,496 @@
+
+--------------------------
+25 11
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 25.
+
+--------------------------
+0100 ****!%*
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0100.
+
+--------------------------
+0101 ***#%**
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0101.
+
+--------------------------
+0102 **%*#*%
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0102.
+
+--------------------------
+0103 *****%*
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0103.
+
+--------------------------
+0104 **%#*#*
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0104.
+
+--------------------------
+0105 ******#
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0105.
+
+--------------------------
+0106 **!****
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0106.
+
+--------------------------
+0107 !!!!%!*
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0107.
+
+--------------------------
+0108 ****!!*
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0108.
+
+--------------------------
+0109 **#!!#%
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0109.
+
+--------------------------
+0110 ****##*
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0110.
+
+--------------------------
+0111 **#!!#%
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0111.
+
+--------------------------
+0112 *****%*
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0112.
+
+--------------------------
+0113 ***!!!*
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0113.
+
+--------------------------
+0114 ****!**
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0114.
+
+--------------------------
+0115 ***##**
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0115.
+
+--------------------------
+0116 **%*#!%
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0116.
+
+--------------------------
+0117 *****!*
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0117.
+
+--------------------------
+0118 **%%*#*
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0118.
+
+--------------------------
+0119 ******#
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0119.
+
+--------------------------
+0120 **#!*#*
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0120.
+
+--------------------------
+0121 ******#
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0121.
+
+--------------------------
+0122 **%%*#*
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0122.
+
+--------------------------
+0123 **#%%*%
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0123.
+
+--------------------------
+0124 **!!***
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0124.
+
+--------------------------
+0125 ***#%*#
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0125.
+
+--------------------------
+0126 ***#%*%
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0126.
+
+--------------------------
+0127 ***#%*!
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0127.
+
+--------------------------
+0128 ***#%#*
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0128.
+
+--------------------------
+0129 ***#%##
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0129.
+
+--------------------------
+0130 ***#%#%
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0130.
+
+--------------------------
+0131 *******
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0131.
+
+--------------------------
+0132 *****#%
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0132.
+
+--------------------------
+0133 !!!!!#!
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0133.
+
+--------------------------
+0134 *****#*
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0134.
+
+--------------------------
+0135 ****##%
+	IC=0
+Additional words: 1
+Word: 0000010000
+Error: Unknown operation - 0135.
+Data count: 0
+Instruction count: 0
+~~~~~~~ Symbols: ~~~~~~~
+
+~~~~~~~ Instruction Table: ~~~~~~~
+
+~~~~~~~ Data Array: ~~~~~~~
+~~~~~~~~ SECOND SCAN! ~~~~~~~~
+
+------------------------
+25 11
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0100 ****!%*
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0101 ***#%**
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0102 **%*#*%
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0103 *****%*
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0104 **%#*#*
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0105 ******#
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0106 **!****
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0107 !!!!%!*
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0108 ****!!*
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0109 **#!!#%
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0110 ****##*
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0111 **#!!#%
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0112 *****%*
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0113 ***!!!*
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0114 ****!**
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0115 ***##**
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0116 **%*#!%
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0117 *****!*
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0118 **%%*#*
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0119 ******#
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0120 **#!*#*
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0121 ******#
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0122 **%%*#*
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0123 **#%%*%
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0124 **!!***
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0125 ***#%*#
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0126 ***#%*%
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0127 ***#%*!
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0128 ***#%#*
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0129 ***#%##
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0130 ***#%#%
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0131 *******
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0132 *****#%
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0133 !!!!!#!
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0134 *****#*
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+0135 ****##%
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+Data count: 0
+Instruction count: 0
+~~~~~~~ Symbols: ~~~~~~~
+
+~~~~~~~ Instruction Table: ~~~~~~~
+
+~~~~~~~ Data Array: ~~~~~~~

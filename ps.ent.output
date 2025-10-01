@@ -1,0 +1,41 @@
+
+--------------------------
+LOOP	0104
+	IC=0
+Additional words: 0
+Word: 0000000000
+Error: Unknown operation - LOOP	0104
+.
+
+--------------------------
+LIST	0132
+	IC=0
+Additional words: 0
+Word: 0000000000
+Error: Unknown operation - LIST	0132
+.
+Data count: 0
+Instruction count: 0
+~~~~~~~ Symbols: ~~~~~~~
+
+~~~~~~~ Instruction Table: ~~~~~~~
+
+~~~~~~~ Data Array: ~~~~~~~
+~~~~~~~~ SECOND SCAN! ~~~~~~~~
+
+------------------------
+LOOP	0104
+
+independant operation, adding words...
+
+------------------------
+LIST	0132
+
+independant operation, adding words...
+Data count: 0
+Instruction count: 0
+~~~~~~~ Symbols: ~~~~~~~
+
+~~~~~~~ Instruction Table: ~~~~~~~
+
+~~~~~~~ Data Array: ~~~~~~~

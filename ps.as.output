@@ -1,0 +1,380 @@
+
+--------------------------
+; file ps.as
+	IC=0
+
+--------------------------
+.entry LIST
+	IC=0
+
+--------------------------
+.extern W
+	IC=0
+
+--------------------------
+.define sz = 2
+	IC=0
+
+--------------------------
+MAIN:	mov r3, LIST[sz]
+	IC=0
+Symbol found!
+SymbolName: MAIN | directiveStart: mov r3, LIST[sz]
+
+Code symbol
+Additional words: 3
+Word: 00000000111000
+
+--------------------------
+LOOP: 	jmp W
+	IC=4
+Symbol found!
+SymbolName: LOOP | directiveStart: jmp W
+
+Code symbol
+Additional words: 1
+Word: 00001001010000
+
+--------------------------
+prn #-5
+	IC=6
+Additional words: 1
+Word: 00001100000000
+
+--------------------------
+mov STR[5], STR[2]
+	IC=8
+Additional words: 4
+Word: 00000000101000
+
+--------------------------
+sub r1, r4
+	IC=13
+Additional words: 1
+Word: 00000011111100
+
+--------------------------
+cmp K, #sz
+	IC=15
+Additional words: 2
+Word: 00000001010000
+
+--------------------------
+bne W
+	IC=18
+Additional words: 1
+Word: 00001010010000
+
+--------------------------
+L1: 	inc L3
+	IC=20
+Symbol found!
+SymbolName: L1 | directiveStart: inc L3
+
+Code symbol
+Additional words: 1
+Word: 00000111010000
+
+--------------------------
+.entry LOOP
+	IC=22
+
+--------------------------
+bne LOOP
+	IC=22
+Additional words: 1
+Word: 00001010010000
+
+--------------------------
+END: hlt
+	IC=24
+Symbol found!
+SymbolName: END | directiveStart: hlt
+
+Code symbol
+Additional words: 0
+Word: 0000000000
+Error: Unknown operation - hlt
+.
+
+--------------------------
+.define len = 4
+	IC=24
+
+--------------------------
+STR: .string "abcdef"
+	IC=24
+Symbol found!
+SymbolName: STR | directiveStart: .string "abcdef"
+
+ADDED DATA: 97 | : 1
+ADDED DATA: 98 | : 2
+ADDED DATA: 99 | : 3
+ADDED DATA: 100 | : 4
+ADDED DATA: 101 | : 5
+ADDED DATA: 102 | : 6
+ADDED DATA: 0 | : 7
+
+--------------------------
+LIST: .data 6, -9, len
+	IC=31
+Symbol found!
+SymbolName: LIST | directiveStart: .data 6, -9, len
+
+ADDED DATA: 6 | : 8
+ADDED DATA: -9 | : 9
+Error: Symbol len
+ not found or not an mdefine.
+ADDED DATA: -1 | : 10
+
+--------------------------
+K: .data 22
+	IC=34
+Symbol found!
+SymbolName: K | directiveStart: .data 22
+
+ADDED DATA: 22 | : 11
+
+--------------------------
+.extern L3
+	IC=35
+Data count: 11
+Instruction count: 35
+~~~~~~~ Symbols: ~~~~~~~
+Name: W, Value: -1, Identifier: external
+Name: sz, Value: 2, Identifier: mdefine
+Name: MAIN, Value: 100, Identifier: code
+Name: LOOP, Value: 104, Identifier: code
+Name: L1, Value: 120, Identifier: code
+Name: END, Value: 124, Identifier: code
+Name: len, Value: 4, Identifier: mdefine
+Name: STR, Value: 0, Identifier: data
+Name: LIST, Value: 7, Identifier: data
+Name: K, Value: 10, Identifier: data
+Name: L3, Value: -1, Identifier: external
+
+~~~~~~~ Instruction Table: ~~~~~~~
+Instruction 0: 00000000111000
+Instruction 1: 
+Instruction 2: 
+Instruction 3: 
+Instruction 4: 00001001010000
+Instruction 5: 
+Instruction 6: 00001100000000
+Instruction 7: 
+Instruction 8: 00000000101000
+Instruction 9: 
+Instruction 10: 
+Instruction 11: 
+Instruction 12: 
+Instruction 13: 00000011111100
+Instruction 14: 
+Instruction 15: 00000001010000
+Instruction 16: 
+Instruction 17: 
+Instruction 18: 00001010010000
+Instruction 19: 
+Instruction 20: 00000111010000
+Instruction 21: 
+Instruction 22: 00001010010000
+Instruction 23: 
+Instruction 24: 00000001100001
+Instruction 25: 00000001100010
+Instruction 26: 00000001100011
+Instruction 27: 00000001100100
+Instruction 28: 00000001100101
+Instruction 29: 00000001100110
+Instruction 30: 00000000000000
+Instruction 31: 00000000000110
+Instruction 32: 11111111110111
+Instruction 33: 11111111111111
+Instruction 34: 00000000010110
+
+~~~~~~~ Data Array: ~~~~~~~
+Data: 97
+Data: 98
+Data: 99
+Data: 100
+Data: 101
+Data: 102
+Data: 0
+Data: 6
+Data: -9
+Data: -1
+Data: 22
+~~~~~~~~ SECOND SCAN! ~~~~~~~~
+
+------------------------
+; file ps.as
+
+
+------------------------
+.entry LIST
+
+
+------------------------
+.extern W
+
+extern line, ignoring
+
+------------------------
+.define sz = 2
+
+define line, ignoring
+
+------------------------
+MAIN:	mov r3, LIST[sz]
+
+Added direct register operand, word: 00000001100000
+Added array index operand, word 1/2: 00000000000010
+Index value: 2
+Added array index operand, word 2/2: 00000000000010
+
+------------------------
+LOOP: 	jmp W
+
+Added direct operand, word: 00000000000010
+
+------------------------
+prn #-5
+
+independant operation, adding words...
+Added immediate operand, word: 11111111111011
+
+------------------------
+mov STR[5], STR[2]
+
+independant operation, adding words...
+Added array index operand, word 1/2: 00000000000010
+Index value: 5
+Added array index operand, word 2/2: 00000000000101
+Added array index operand, word 1/2: 00000000000010
+Index value: 2
+Added array index operand, word 2/2: 00000000000010
+
+------------------------
+sub r1, r4
+
+independant operation, adding words...
+Added register operands, word: 00000000110000
+
+------------------------
+cmp K, #sz
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+Added immediate operand, word: 00000000000010
+
+------------------------
+bne W
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+L1: 	inc L3
+
+Added direct operand, word: 00000000000010
+
+------------------------
+.entry LOOP
+
+
+------------------------
+bne LOOP
+
+independant operation, adding words...
+Added direct operand, word: 00000000000010
+
+------------------------
+END: hlt
+
+
+------------------------
+.define len = 4
+
+define line, ignoring
+
+------------------------
+STR: .string "abcdef"
+
+string directive, ignoring
+
+------------------------
+LIST: .data 6, -9, len
+
+data directive, ignoring
+
+------------------------
+K: .data 22
+
+data directive, ignoring
+
+------------------------
+.extern L3
+
+extern line, ignoring
+Data count: 11
+Instruction count: 35
+~~~~~~~ Symbols: ~~~~~~~
+Name: W, Value: -1, Identifier: external
+Name: sz, Value: 2, Identifier: mdefine
+Name: MAIN, Value: 100, Identifier: code
+Name: LOOP, Value: 104, Identifier: code
+Name: L1, Value: 120, Identifier: code
+Name: END, Value: 124, Identifier: code
+Name: len, Value: 4, Identifier: mdefine
+Name: STR, Value: 0, Identifier: data
+Name: LIST, Value: 7, Identifier: data
+Name: K, Value: 10, Identifier: data
+Name: L3, Value: -1, Identifier: external
+
+~~~~~~~ Instruction Table: ~~~~~~~
+Instruction 0: 00000000111000
+Instruction 1: 
+Instruction 2: 
+Instruction 3: 
+Instruction 4: 00001001010000
+Instruction 5: 
+Instruction 6: 00001100000000
+Instruction 7: 
+Instruction 8: 00000000101000
+Instruction 9: 
+Instruction 10: 
+Instruction 11: 
+Instruction 12: 
+Instruction 13: 00000011111100
+Instruction 14: 
+Instruction 15: 00000001010000
+Instruction 16: 
+Instruction 17: 
+Instruction 18: 00001010010000
+Instruction 19: 
+Instruction 20: 00000111010000
+Instruction 21: 
+Instruction 22: 00001010010000
+Instruction 23: 
+Instruction 24: 00000001100001
+Instruction 25: 00000001100010
+Instruction 26: 00000001100011
+Instruction 27: 00000001100100
+Instruction 28: 00000001100101
+Instruction 29: 00000001100110
+Instruction 30: 00000000000000
+Instruction 31: 00000000000110
+Instruction 32: 11111111110111
+Instruction 33: 11111111111111
+Instruction 34: 00000000010110
+
+~~~~~~~ Data Array: ~~~~~~~
+Data: 235823104
+Data: 679218
+Data: 10
+Data: 329
+Data: -1216690256
+Data: -1216690256
+Data: 0
+Data: 6
+Data: -9
+Data: -1
+Data: 22
