@@ -1,0 +1,15 @@
+# Object files
+*.o
+
+# Backup files
+*.bak
+
+# Build outputs
+*.ob
+*.ent
+*.ext
+*.output
+
+# VSCode settings
+.vscode/
+
