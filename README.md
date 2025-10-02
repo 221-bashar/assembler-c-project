@@ -1,7 +1,7 @@
 # Assembler Project in C  
 
 ## 📌 Overview  
-This project is an **assembler written in C**, developed as part of a university course. The assembler reads assembly source files (`.as`) and produces the corresponding machine code and supporting output files. It implements a **two-pass process** (first pass & second pass) for symbol resolution and code generation.  
+This project is an **assembler written in C, developed as part of a university course. The assembler reads assembly source files (`.as`) and produces the corresponding machine code and supporting output files. It implements a **two-pass process** (first pass & second pass) for symbol resolution and code generation.  
 
 ## 🛠 Features  
 - Pre-assembler stage (macro handling and preprocessing).  
@@ -53,7 +53,8 @@ Input file (`ps.as`):
 ```asm
 ; sample assembly file
 MAIN:   mov r3, LENGTH
-        add r2, r3
+        add r2,
+         r3
         stop
 LENGTH: .data 6
 ```
